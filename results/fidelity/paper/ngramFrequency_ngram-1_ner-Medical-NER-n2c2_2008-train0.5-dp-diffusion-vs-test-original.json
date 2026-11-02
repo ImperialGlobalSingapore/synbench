@@ -1,0 +1,15 @@
+{
+    "dataset_1": {
+        "name": "n2c2_2008",
+        "split": "train",
+        "approach": "dp-diffusion",
+        "epsilon": "0.5"
+    },
+    "dataset_2": {
+        "name": "n2c2_2008",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-Medical-NER",
+    "1-gram": 6.7191730218404455
+}

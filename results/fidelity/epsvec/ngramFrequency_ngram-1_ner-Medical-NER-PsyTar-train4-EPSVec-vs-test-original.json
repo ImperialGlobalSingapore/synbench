@@ -1,0 +1,17 @@
+{
+    "dataset_1": {
+        "name": "PsyTar",
+        "split": "train",
+        "generator": "Llama-3.2-1B",
+        "approach": "EPSVec",
+        "epsilon": "4"
+    },
+    "dataset_2": {
+        "name": "PsyTar",
+        "split": "test",
+        "generator": "original",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-Medical-NER",
+    "1-gram": 2.37215377191298
+}

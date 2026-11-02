@@ -1,0 +1,15 @@
+{
+    "dataset_1": {
+        "name": "eurlex",
+        "split": "train",
+        "approach": "aug-pe",
+        "epsilon": "2"
+    },
+    "dataset_2": {
+        "name": "eurlex",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 2.1181107392422085
+}

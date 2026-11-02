@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the SynBench paper."
+title: "SynBench: A Benchmark for Differentially Private Text Generation"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/ImperialGlobalSingapore/synbench"
+authors:
+  - family-names: Sun
+    given-names: Yidan
+  - family-names: Schlegel
+    given-names: Viktor
+  - family-names: Nandakumar
+    given-names: Srinivasan
+  - family-names: Zahid
+    given-names: Iqra
+  - family-names: Wu
+    given-names: Yuping
+  - family-names: Wu
+    given-names: Yulong
+  - family-names: Li
+    given-names: Hao
+  - family-names: Zhang
+    given-names: Jie
+  - family-names: Del-Pinto
+    given-names: Warren
+  - family-names: Nenadic
+    given-names: Goran
+  - family-names: Lam
+    given-names: Siew Kei
+  - family-names: Bharath
+    given-names: Anil Anthony
+preferred-citation:
+  type: conference-paper
+  title: "SynBench: A Benchmark for Differentially Private Text Generation"
+  collection-title: "Advances in Neural Information Processing Systems (Evaluations and Datasets Track)"
+  year: 2026
+  authors:
+    - family-names: Sun
+      given-names: Yidan
+    - family-names: Schlegel
+      given-names: Viktor
+    - family-names: Nandakumar
+      given-names: Srinivasan
+    - family-names: Zahid
+      given-names: Iqra
+    - family-names: Wu
+      given-names: Yuping
+    - family-names: Wu
+      given-names: Yulong
+    - family-names: Li
+      given-names: Hao
+    - family-names: Zhang
+      given-names: Jie
+    - family-names: Del-Pinto
+      given-names: Warren
+    - family-names: Nenadic
+      given-names: Goran
+    - family-names: Lam
+      given-names: Siew Kei
+    - family-names: Bharath
+      given-names: Anil Anthony

@@ -1,0 +1,17 @@
+{
+    "dataset_1": {
+        "name": "ZSTFNS",
+        "split": "train",
+        "generator": "Llama-3.2-1B",
+        "approach": "EPSVec",
+        "epsilon": "0.5"
+    },
+    "dataset_2": {
+        "name": "ZSTFNS",
+        "split": "test",
+        "generator": "original",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 4.093329578351689
+}

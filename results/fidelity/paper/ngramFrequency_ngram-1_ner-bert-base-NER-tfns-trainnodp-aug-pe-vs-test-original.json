@@ -1,0 +1,14 @@
+{
+    "dataset_1": {
+        "name": "tfns",
+        "split": "train",
+        "approach": "aug-pe"
+    },
+    "dataset_2": {
+        "name": "tfns",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 3.5462387292166992
+}

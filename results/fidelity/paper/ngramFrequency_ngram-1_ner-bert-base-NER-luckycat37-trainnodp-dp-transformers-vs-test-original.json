@@ -1,0 +1,14 @@
+{
+    "dataset_1": {
+        "name": "luckycat37",
+        "split": "train",
+        "approach": "dp-transformers"
+    },
+    "dataset_2": {
+        "name": "luckycat37",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 1.1706823713621073
+}

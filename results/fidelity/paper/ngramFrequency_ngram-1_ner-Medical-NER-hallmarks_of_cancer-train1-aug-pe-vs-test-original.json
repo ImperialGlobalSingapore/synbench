@@ -1,0 +1,15 @@
+{
+    "dataset_1": {
+        "name": "hallmarks_of_cancer",
+        "split": "train",
+        "approach": "aug-pe",
+        "epsilon": "1"
+    },
+    "dataset_2": {
+        "name": "hallmarks_of_cancer",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-Medical-NER",
+    "1-gram": 4.454979510152198
+}

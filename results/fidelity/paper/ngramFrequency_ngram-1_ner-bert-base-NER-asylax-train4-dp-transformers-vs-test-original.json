@@ -1,0 +1,15 @@
+{
+    "dataset_1": {
+        "name": "asylax",
+        "split": "train",
+        "approach": "dp-transformers",
+        "epsilon": "4"
+    },
+    "dataset_2": {
+        "name": "asylax",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 3.022415482309447
+}

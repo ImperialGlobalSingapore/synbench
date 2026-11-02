@@ -1,0 +1,47 @@
+# Conda environment for the SynBench pipelines (utility / fidelity / MIA / leakage) and the paper scripts.
+#
+# Create:   conda env create -f environment.yml
+# Activate: conda activate synbench
+#
+# Run scripts from the repo root (see README.md).
+#
+# Versions are pinned to a known-working setup (Python 3.10, Linux, CUDA 12.4). torch pulls the matching
+# nvidia-*-cu12 runtime wheels from PyPI, so no separate cudatoolkit package is needed (just a host GPU
+# driver compatible with CUDA 12.4 for GPU training).
+name: synbench
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      # Core ML / training
+      - torch==2.6.0
+      - transformers==4.51.3
+      - accelerate==0.34.2
+      - datasets==2.21.0
+      - evaluate==0.4.3
+      - tokenizers==0.21.1
+      - sentencepiece==0.2.0
+
+      # Data / science stack
+      - numpy==1.26.4
+      - pandas==2.2.3
+      - scipy==1.14.1
+      - scikit-learn==1.7.2
+      - matplotlib==3.10.1
+
+      # NLP / fidelity metrics
+      - spacy==3.8.4
+      - sentence-transformers==3.1.0
+      - mauve-text==0.4.0
+      - tiktoken==0.9.0
+
+      # Config / experiment plumbing
+      - jsonnet==0.20.0
+      - fire==0.6.0
+      - handystuff==0.2.2
+      - wandb==0.17.7
+
+      # Utility
+      - tqdm==4.66.5

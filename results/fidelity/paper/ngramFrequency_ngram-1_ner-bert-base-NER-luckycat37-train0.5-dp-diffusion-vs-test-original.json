@@ -1,0 +1,15 @@
+{
+    "dataset_1": {
+        "name": "luckycat37",
+        "split": "train",
+        "approach": "dp-diffusion",
+        "epsilon": "0.5"
+    },
+    "dataset_2": {
+        "name": "luckycat37",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 7.386558889287562
+}

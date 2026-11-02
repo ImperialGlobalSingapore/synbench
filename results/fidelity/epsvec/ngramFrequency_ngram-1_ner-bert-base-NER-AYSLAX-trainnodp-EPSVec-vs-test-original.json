@@ -1,0 +1,16 @@
+{
+    "dataset_1": {
+        "name": "AYSLAX",
+        "split": "train",
+        "generator": "Llama-3.2-1B",
+        "approach": "EPSVec"
+    },
+    "dataset_2": {
+        "name": "AYSLAX",
+        "split": "test",
+        "generator": "original",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 4.08020747422996
+}

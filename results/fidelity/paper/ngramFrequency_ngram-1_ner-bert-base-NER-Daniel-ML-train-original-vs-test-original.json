@@ -1,0 +1,14 @@
+{
+    "dataset_1": {
+        "name": "Daniel-ML",
+        "split": "train",
+        "approach": "original"
+    },
+    "dataset_2": {
+        "name": "Daniel-ML",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 1.22923341687367
+}

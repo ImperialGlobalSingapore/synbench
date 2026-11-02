@@ -1,0 +1,15 @@
+{
+    "dataset_1": {
+        "name": "Daniel-ML",
+        "split": "train",
+        "approach": "aug-pe",
+        "epsilon": "2"
+    },
+    "dataset_2": {
+        "name": "Daniel-ML",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 4.657788336573205
+}

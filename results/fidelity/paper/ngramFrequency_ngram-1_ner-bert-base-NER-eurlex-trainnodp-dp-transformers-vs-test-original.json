@@ -1,0 +1,14 @@
+{
+    "dataset_1": {
+        "name": "eurlex",
+        "split": "train",
+        "approach": "dp-transformers"
+    },
+    "dataset_2": {
+        "name": "eurlex",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-bert-base-NER",
+    "1-gram": 0.5232091939475503
+}

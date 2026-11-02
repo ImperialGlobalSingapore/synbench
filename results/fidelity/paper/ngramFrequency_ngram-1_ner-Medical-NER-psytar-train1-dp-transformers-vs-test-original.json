@@ -1,0 +1,15 @@
+{
+    "dataset_1": {
+        "name": "psytar",
+        "split": "train",
+        "approach": "dp-transformers",
+        "epsilon": "1"
+    },
+    "dataset_2": {
+        "name": "psytar",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-Medical-NER",
+    "1-gram": 3.634575640361922
+}

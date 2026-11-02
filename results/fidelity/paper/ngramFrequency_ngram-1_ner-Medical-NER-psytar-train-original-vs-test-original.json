@@ -1,0 +1,14 @@
+{
+    "dataset_1": {
+        "name": "psytar",
+        "split": "train",
+        "approach": "original"
+    },
+    "dataset_2": {
+        "name": "psytar",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-Medical-NER",
+    "1-gram": 1.0834911667480678
+}

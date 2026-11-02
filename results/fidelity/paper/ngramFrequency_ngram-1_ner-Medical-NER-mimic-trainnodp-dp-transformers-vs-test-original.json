@@ -1,0 +1,14 @@
+{
+    "dataset_1": {
+        "name": "mimic",
+        "split": "train",
+        "approach": "dp-transformers"
+    },
+    "dataset_2": {
+        "name": "mimic",
+        "split": "test",
+        "approach": "original"
+    },
+    "metric": "ngramFrequency_ngram-1_ner-Medical-NER",
+    "1-gram": 0.2967066169437077
+}
